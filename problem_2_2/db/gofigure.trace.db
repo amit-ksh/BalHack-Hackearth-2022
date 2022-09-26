@@ -1,0 +1,6 @@
+2022-09-23 12:14:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMERS" not found; SQL statement:
+INSERT INTO Customers 
+                    (employee_id, amount, reason, date)
+                    VALUES 
+                    ( ? ,  ? ,  ? ,  ? ) [42102-206]
